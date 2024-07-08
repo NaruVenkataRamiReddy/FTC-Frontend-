@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.my-projects-heading {
+    color: #183b56;
+    font-family: "Bree Serif";
+    font-size: 24px;
+}
+
+.my-projects-description {
+    color: #616e7c;
+    font-family: "Bree Serif";
+    font-size: 12px;
+}
+
+.my-projects-home-container {
+    padding: 15px;
+    text-align: center;
+}
+
+.image {
+    width: 100vw;
+    height:70vh
+}
+
+.detail-image {
+    padding: 5px;
+    margin: 10px;
+    height: 30vh;
+    width: 40vw;
+}
+
+.bg-container {
+    background-image: url("paddy.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.bg-container-2 {
+    background-image: url("Vegetables.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.advanced-card {
+    background-color: #ffffff;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 15px;
+    height: 30px;
+}
+
+.advanced-card-heading {
+    font-family: "Bree Serif";
+    font-weight: 500;
+    font-size: 48px;
+    color: #5752ab;
+}
+
+.advanced-card-description {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #323f4b;
+}
+
+.button-weight {
+    border-radius: 8px;
+    background-color: #ffffff;
+    height: 35px;
+    width: 138px;
+    margin: 15px;
+    border-width: 1px;
+}
+
+.button-blue {
+    border-radius: 8px;
+    background-color: #171f46;
+    height: 35px;
+    width: 120px;
+    color: #ffffff;
+    border-width: 0px;
+}
+
+.meals-bg-container {
+    background-image: url("goodwans.jpg");
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.card {
+    text-align: left;
+    background-color: #f6c56e;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 6px;
+    font-family: "Roboto";
+}
+
+.button {
+    height: 35px;
+    width: 120px;
+    padding: 6px;
+    border-width: 0px;
+    border-radius: 5px;
+    font-family: "Roboto";
+}
+
+.happy-card {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Bree Serif";
+}
+
+.news-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.card {
+    color: white;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    padding: 15px;
+}
+
+.card-heading {
+    font-family: "Roboto";
+    color: #323f4b;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.card-paragraph-description {
+    font-family: "Roboto";
+    color: #7b8794;
+    font-weight: bold;
+}
+
+.card-paragraph {
+    font-family: "Roboto";
+    color: #7b8794;
+    font-size: 15px;
+}
+
+.button {
+    text-align: center;
+    height: 38px;
+    width: 135px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: black;
+}

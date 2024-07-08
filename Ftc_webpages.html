@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="FTC_webpages.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="logo" href="#">F.T.C   </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav text-center" style="color:white">
+                <a class="nav-link active ml:5" style="color:white" href="#">
+                    HOME
+                    <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-link" style="color:white" href="#">CONSUMER</a>
+                <a class="nav-link" style="color:white" href="#">FARMER</a>
+                <a class="nav-link" style="color:white" href="#">GOODAMS</a>
+                <a class="nav-link" style="color:white" href="#"></a>
+
+            </div>
+        </div>
+    </nav>
+    <div id="sectionRefertotheBelowGifImage">
+        <div class="my-projects-home-container">
+            <img src="FTC.jpg" class="image" />
+            <h1 class="my-projects-heading">My FTC Project</h1>
+            <p class="my-projects-description">There is some detailed information about each section of our application</p>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <img src="paddy.jpg" class="detail-image" onclick="display('sectionCrops')" />
+            <img src="Vegetables.jpg" class="detail-image" onclick="display('sectionVegetables')" />
+        </div>
+
+        <div class="d-flex flex-row justify-content-center">
+            <img src="goodwans.jpg" class="detail-image" onclick="display('sectionStorage')"  />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="detail-image" onclick="display('sectionNewsoftheDay')" class="subimage"/>
+        </div>
+    </div>
+
+
+    <div id="sectionCrops">
+        <div class="bg-container d-flex flex-column justify-content-end text-center">
+            <div class="advanced-card ">
+                <h1 class="advanced-card-heading">Crops</h1>
+                <p class="advanced-card-description">Farming involves cultivating a variety of crops depending on the region, climate, soil type, and market demand. Here are some common types of crops grown in different farming systems:
+
+                    <ul>**Cereal Crops**
+                         **Wheat** - Widely grown in temperate regions.
+                        2. **Rice** - Common in tropical and subtropical regions.
+                        3. **Corn (Maize)** - Versatile crop grown in many climates.
+                        4. **Barley** - Often grown in cooler climates.
+                        5. **Oats** - Grown in cooler climates and used for animal feed and human consumption.
+                    </ul>
+                    <ul>**Legume Crops**
+                        1. **Soybeans** - High in protein and oil, widely grown.
+                        2. **Peas** - Grown in cooler climates.
+                        3. **Lentils** - Drought-resistant, grown in semi-arid regions.
+                        4. **Beans** - Various types like kidney, black, and pinto beans.
+                    </ul>
+                    <ul> **Root and Tuber Crops**
+                        1. **Potatoes** - Grown in temperate and cool climates.
+                        2. **Sweet Potatoes** - Prefer warmer climates.
+                        3. **Cassava** - Grown in tropical regions.
+                        4. **Carrots** - Grown in a variety of climates.
+                    </ul>
+                    <ul> **Oilseed Crops**
+                        1. **Canola (Rapeseed)** - Grown in temperate regions.
+                        2. **Sunflower** - Thrives in a variety of climates.
+                        3. **Peanuts** - Prefer warmer climates.
+                        4. **Olives** - Mediterranean climates.
+                    </ul>
+                    <ul> **Fiber Crops**
+                        1. **Cotton** - Grown in warm climates.
+                        2. **Flax** - Grown in cooler climates for linen and oil.
+                        3. **Hemp** - Grows in various climates, used for fiber and oil.
+                    </ul>
+                    <ul> **Fruit Crops**
+                        1. **Apples** - Temperate climates.
+                        2. **Citrus (oranges, lemons, etc.)** - Subtropical and tropical climates.
+                        3. **Bananas** - Tropical climates.
+                        4. **Grapes** - Temperate and Mediterranean climates.
+                    </ul>
+                    <ol> **Vegetable Crops**
+                        1. **Tomatoes** - Grown in various climates.
+                        2. **Lettuce** - Cooler climates.
+                        3. **Cucumbers** - Warm climates.
+                        4. **Peppers** - Warm climates.
+                    </ol>
+                    <ul> **Specialty Crops**
+                        1. **Coffee** - Tropical climates.
+                        2. **Tea** - Subtropical and tropical climates.
+                        3. **Cocoa** - Tropical climates.
+                        4. **Spices (e.g., pepper, vanilla, saffron)** - Various climates depending on the spice.
+                    </ul>
+                    <ul> **Forage Crops**
+                        1. **Alfalfa** - Grown for animal feed in various climates.
+                        2. **Clover** - Often used in pasture and for forage.
+                    </ul>
+                    <ul> **Medicinal and Aromatic Plants**
+                        1. **Lavender** - Mediterranean climates.
+                        2. **Aloe Vera** - Warm, arid climates.
+                        3. **Mint** - Grows in various climates.
+                        4. **Chamomile** - Cooler climates.
+                    </ul>
+                    Selecting crops for farming requires considering factors like local climate conditions, soil fertility, water availability, pest resistance, and market demand. Additionally, sustainable farming practices such as crop rotation, intercropping, and organic farming can enhance soil health and crop yield.</p>
+                <button class="button button-white">Learn more</button>
+                <button class="button-blue">Save Draft</button>
+                <button class="btn btn-dark" onclick="display('sectionRefertotheBelowGifImage')">back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionVegetables">
+        <div class="bg-container-2 d-flex flex-column justify-content-end text-center">
+            <div class="advanced-card ">
+                <h1 class="advanced-card-heading">Vegetables</h1>
+                <p class="advanced-card-description">Vegetables are an essential part of human diets, providing essential nutrients, vitamins, and minerals. Here’s an overview of common vegetable crops, including their growing conditions and nutritional benefits:
+
+                    ### **Leafy Greens**
+                    1. **Lettuce**
+                       - **Types**: Romaine, Iceberg, Butterhead, Leaf
+                       - **Growing Conditions**: Cool weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins A and K, folate, fiber
+                    
+                    2. **Spinach**
+                       - **Growing Conditions**: Cool weather, rich soil
+                       - **Nutritional Benefits**: High in iron, calcium, vitamins A and C
+                    
+                    3. **Kale**
+                       - **Growing Conditions**: Cool weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins A, C, K, antioxidants
+                    
+                    4. **Swiss Chard**
+                       - **Growing Conditions**: Cool weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins A, C, K, magnesium
+                    
+                    ### **Root Vegetables**
+                    1. **Carrots**
+                       - **Growing Conditions**: Cool to moderate weather, loose, sandy soil
+                       - **Nutritional Benefits**: High in beta-carotene (vitamin A), fiber
+                    
+                    2. **Beets**
+                       - **Growing Conditions**: Cool weather, rich soil
+                       - **Nutritional Benefits**: High in folate, manganese, antioxidants
+                    
+                    3. **Radishes**
+                       - **Growing Conditions**: Cool weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamin C, fiber
+                    
+                    4. **Turnips**
+                       - **Growing Conditions**: Cool weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamin C, potassium, fiber
+                    
+                    ### **Fruiting Vegetables**
+                    1. **Tomatoes**
+                       - **Growing Conditions**: Warm weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins C, K, potassium, lycopene
+                    
+                    2. **Bell Peppers**
+                       - **Growing Conditions**: Warm weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins A, C, antioxidants
+                    
+                    3. **Cucumbers**
+                       - **Growing Conditions**: Warm weather, well-drained soil
+                       - **Nutritional Benefits**: Hydrating, low in calories, good source of vitamins K and C
+                    
+                    4. **Eggplants**
+                       - **Growing Conditions**: Warm weather, well-drained soil
+                       - **Nutritional Benefits**: High in fiber, antioxidants
+                    
+                    ### **Cruciferous Vegetables**
+                    1. **Broccoli**
+                       - **Growing Conditions**: Cool weather, rich soil
+                       - **Nutritional Benefits**: High in vitamins C, K, fiber, antioxidants
+                    
+                    2. **Cauliflower**
+                       - **Growing Conditions**: Cool weather, rich soil
+                       - **Nutritional Benefits**: High in vitamins C, K, fiber
+                    
+                    3. **Cabbage**
+                       - **Growing Conditions**: Cool weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins C, K, fiber
+                    
+                    4. **Brussels Sprouts**
+                       - **Growing Conditions**: Cool weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins C, K, fiber
+                    
+                    ### **Alliums**
+                    1. **Onions**
+                       - **Growing Conditions**: Cool to moderate weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamin C, antioxidants, sulfur compounds
+                    
+                    2. **Garlic**
+                       - **Growing Conditions**: Cool weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamin C, B6, manganese, sulfur compounds
+                    
+                    3. **Leeks**
+                       - **Growing Conditions**: Cool weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins A, C, K, fiber
+                    
+                    ### **Legumes**
+                    1. **Green Beans**
+                       - **Growing Conditions**: Warm weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins A, C, K, fiber
+                    
+                    2. **Peas**
+                       - **Growing Conditions**: Cool weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins A, C, K, fiber, protein
+                    
+                    ### **Squash and Gourds**
+                    1. **Zucchini**
+                       - **Growing Conditions**: Warm weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins C, B6, potassium
+                    
+                    2. **Pumpkins**
+                       - **Growing Conditions**: Warm weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins A, C, potassium, fiber
+                    
+                    ### **Other Notable Vegetables**
+                    1. **Sweet Corn**
+                       - **Growing Conditions**: Warm weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins B, fiber, antioxidants
+                    
+                    2. **Asparagus**
+                       - **Growing Conditions**: Cool to moderate weather, well-drained soil
+                       - **Nutritional Benefits**: High in vitamins A, C, K, folate
+                    
+                    3. **Celery**
+                       - **Growing Conditions**: Cool weather, rich, moist soil
+                       - **Nutritional Benefits**: High in vitamins K, C, potassium, fiber
+                    
+                    ### **Cultivation Tips**
+                    - **Soil Preparation**: Most vegetables thrive in well-drained, nutrient-rich soil. Adding organic matter like compost can improve soil fertility.
+                    - **Watering**: Consistent and adequate watering is crucial, but overwatering can lead to root rot. Drip irrigation is often recommended.
+                    - **Pest Control**: Integrated Pest Management (IPM) strategies, including crop rotation, biological controls, and organic pesticides, can help manage pests.
+                    - **Harvesting**: Timely harvesting ensures vegetables are at their peak flavor and nutritional value.
+                    
+                    Growing vegetables can be rewarding and contributes to a healthy diet. Whether in a backyard garden, on a farm, or in a community garden, vegetables are a versatile and essential component of agriculture.</p>
+                <button class="button button-white">Learn more</button>
+                <button class="button-blue">Save Draft</button>
+                <button class="btn btn-dark" onclick="display('sectionRefertotheBelowGifImage')">back</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="sectionStorage">
+        <div class="meals-bg-container d-flex flex-column justify-content-end text-center">
+            <div class="card">
+                <h1 class="happy-card">Storage Houses</h1>
+                <p class="paragraph">Discover the Storage Houses Near by</p>
+                <button class="button">Book Now</button>
+                <button class="btn btn-dark" onclick="display('sectionRefertotheBelowGifImage')">back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionNewsoftheDay">
+        <div class="news-bg-container d-flex flex-column justify-content-end text-center">
+            <div class="card">
+                <h1 class="card-heading">NEWS OF THE DAY </h1>
+                <p class="card-paragraph-description">iB Cricket announces world's frist virtual Reality Cricket League</p>
+                <p class="card-paragraph">iB cricket and viu together have annonced the World's first virtual reality cricket league featuring 12 international cricketers,who willbe competiting aganist england </p>
+                <button class="button">Read more</button>
+                <button class="btn btn-dark" onclick="display('sectionRefertotheBelowGifImage')">back</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
